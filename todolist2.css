@@ -1,1 +1,9 @@
+.high>li {background-color:red; color:white;}
+.med>li {background-color:orange; color:#663300;}
+.low>li {background-color:gray; color:black;}
+.done>li {background-color:black; color:#00CCFF;}
 
+#123456>h1 {font-size=25pt; color:red;}
+#234567>h1 {font-size=25pt; color:orange;}
+#345678>h1 {font-size=25pt; color:gray;}
+#456789>h1 {font-size=25pt; color:black;
