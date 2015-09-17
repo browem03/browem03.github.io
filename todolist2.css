@@ -1,7 +1,7 @@
 .high {background-color:red; color:white;}
 .med {background-color:orange; color:#663300;}
 .low {background-color:gray; color:black;}
-.done {background-color:black; color:#00CCFF;}
+.done {background-color:black; color:#00CCFF;text-decoration:line-through;}
 
 #123456 {font-size=25pt; color:red;}
 #234567 {font-size=25pt; color:orange;}
