@@ -1,6 +1,6 @@
 
 
-changeWord=function(){
+changeFunc=function(){
       var myh1 
       value=document.querySelector("#def").value;
     
