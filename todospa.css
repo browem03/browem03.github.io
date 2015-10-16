@@ -1,4 +1,4 @@
 
-p { width:500px; height:400px; background-color:pink; position:relative; left:150px; }
+p { width:500px; height:400px; background-color:pink; margin:auto; }
 h1 {color:blue; text-align:center;}
-footer { width:500px; height:20px; background-color:pink; position:relative; left:150px;}
+footer { width:500px; height:20px; background-color:pink; margin:auto;}
