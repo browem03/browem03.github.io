@@ -1,11 +1,11 @@
 
 
 changeFunc=function(){
-      var myh1 
-      value=document.querySelector("#def").value;
+      var myp
+      value=document.querySelector("#abc").value;
     
-       myh1=document.querySelector("#abc") 
-       myh1.innerHTML= value;
-       myh1.className="csclass";}
+       myp=document.querySelector("#def") 
+       myp.innerHTML= value;
+       myp.className="csclass";}
 
 
