@@ -2,3 +2,6 @@
 p { width:500px; height:400px; background-color:pink; margin:auto; }
 h1 {color:blue; text-align:center;}
 footer { width:500px; height:20px; background-color:pink; margin:auto;}
+.high {color:red;}
+.med {color:orange;}
+.low {color:purple;}
