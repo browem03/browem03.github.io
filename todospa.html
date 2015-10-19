@@ -16,9 +16,9 @@
 
 <footer>Enter Task <input id=def type="text" value="To Do" size="40">
 <select id="priority">
-    <option>High</option>
-    <option>Medium</option>
-    <option>Low</option>
+    <option class=high>High</option>
+    <option class=med>Medium</option>
+    <option class=low>Low</option>
 </select>
 
 <button id= def onclick="changeFunc()"> New </button>
@@ -26,10 +26,17 @@
 
 <script class= csclass id= myDiv type="text/javascript">
     changeFunc=function(){
-      var myh1 
+      var myh1, high, med, low 
        value=document.querySelector("#def").value;
        myh1=document.querySelector("#abc"); 
        myh1.innerHTML= value;
+       high.className= "high";
+       med.className= "med";
+       low.className= "low";
+    
+        
+        
+        
     }
 
 
