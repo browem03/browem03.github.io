@@ -8,13 +8,13 @@
 
 
 <h1>Busy Busy</h1>
-<p> </p>
+<p id=abc> </p>
 
 <br></br>
 <br></br>
 
 
-<footer>Enter Task <input id=abc type="text" value="To Do" size="40">
+<footer>Enter Task <input id=def type="text" value="To Do" size="40">
 <select id="priority">
     <option>High</option>
     <option>Medium</option>
@@ -23,7 +23,20 @@
 
 <button id= def onclick="changeFunc()"> New </button>
 </footer> 
-<script>  </script>
+
+<script class= csclass id= myDiv type="text/javascript">
+    changeWord=function(){
+      var myh1 
+      value=document.querySelector("#def").value;
+    
+       myh1=document.querySelector("#abc") 
+       myh1.innerHTML= value;
+       myh1.className="csclass";
+}
+
+
+
+</script>
 
 
 
