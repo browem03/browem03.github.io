@@ -20,9 +20,9 @@
 
 <footer>Enter Task <input id=def type="text" value="To Do" size="40">
 <select id="priority">
-    <option class=high>High</option>
-    <option class=med>Medium</option>
-    <option class=low>Low</option>
+    <option id=high class=high>High</option>
+    <option id=med class=med>Medium</option>
+    <option id=low class=low>Low</option>
 </select>
 
 <button id= def onclick="changeFunc()"> New </button>
@@ -36,6 +36,9 @@
        myh1.innerHTML= value;
        mypriority=document.querySelector=#priority.value; 
        def.type="checkbox"
+       high=document.querySelector("high");
+       med=document.querySelector("med");
+       low=document.querySelector("low")
 
        high.className= "high";
        med.className= "med";
