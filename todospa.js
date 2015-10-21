@@ -4,7 +4,7 @@ changeFunc=function(){
       changeFunc=function(){
       var myh1, high, med, low, myInput, myLi, myol
        myInput=document.querySelector("#def").value;
-       myh1=document.querySelector("myLi"); 
+       myh1=document.querySelector("#abc"); 
        myh1.innerHTML= myInput;
        
        
@@ -13,6 +13,7 @@ changeFunc=function(){
        myLi.appendChild(mylit);
        document.body.appendChild(myLi);
        myol= document.body.querySelector("#todoList");
+       myh1.appendChild(myol);
        myol.appendChild(myLi);
        myLi.className=mypriority.value;
        myLi.type="checkbox"
