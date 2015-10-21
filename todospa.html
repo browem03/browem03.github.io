@@ -40,6 +40,7 @@
        myInput = document.querySelector("#def");
        myText = document.createTextNode(myBox.value); 
        myInput.type = “checkbox”
+       document.body.appendChild(myUL);
        myUl.appendChild(myLi);
        myLi.appendChild(myInput);
        myLi.appendChild(myText);
