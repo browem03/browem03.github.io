@@ -10,8 +10,7 @@ changeFunc = function(){
        cb.type="checkbox";
        cb.onclick = checkfunc;
        
-       myp= document.querySelector("#abc");
-       myp.appendChild(myInput);
+      
        myLi= document.createElement("li");
        myLi.appendChild(cb);
        myLi.appendChild(value1);
