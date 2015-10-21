@@ -28,34 +28,11 @@
 <button id= def onclick="changeFunc()"> New </button>
 </footer> 
 
-<script type="text/javascript">
-
-      changeFunc = function(){
+<script type="text/javascript" src="todospa.js"></script>
+<script type="text/javascript" src=http://bnmnetp.github.io/CS130/listsaver.js></script>
       
-       myInput=document.querySelector("#def");
-       value1 = document.createTextNode(myInput.value);
-       mylist= document.querySelector("#todoList");
-       
-       cb= document.createElement("INPUT");
-       cb.type="checkbox";
-       cb.onclick = checkfunc;
-       
-       
-       myLi= document.createElement("li");
-       myLi.appendChild(cb);
-       myLi.appendChild(value1);
-       mylist.appendChild(myLi);
-       dropdown= document.querySelector("#priority");
-       myLi.classList.add(dropdown.value);
-      }
-       
-      checkfunc = function() { if (this.checked) {this.parentNode.classList.add("done"); }
-      else { this.parentNode.classList.remove("done") }
-      localSave("tasklist")
-      }
   
-  
-</script>
+
 
 
 </body>
