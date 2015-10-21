@@ -2,7 +2,7 @@
 
 changeFunc = function(){
       
-       myInput=document.querySelector("#abc");
+       myInput=document.querySelector("#def");
        value1 = document.createTextNode(myInput.value);
        mylist= document.querySelector("#todoList");
        
@@ -10,7 +10,8 @@ changeFunc = function(){
        cb.type="checkbox";
        cb.onclick = checkfunc;
        
-       
+       myp= document.querySelector("#abc");
+       myp.appendChild(myInput);
        myLi= document.createElement("li");
        myLi.appendChild(cb);
        myLi.appendChild(value1);
