@@ -2,7 +2,7 @@
 
 changeFunc = function(){
       
-       myInput=document.querySelector("#def");
+       myInput=document.querySelector("#abc");
        value1 = document.createTextNode(myInput.value);
        mylist= document.querySelector("#todoList");
        
