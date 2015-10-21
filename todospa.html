@@ -32,12 +32,14 @@
     changeFunc=function(){
       var myh1, high, med, low, myInput
        myInput=document.querySelector("#def").value;
-       myh1=document.querySelector("#abc"); 
+       myh1=document.querySelector("li"); 
        myh1.innerHTML= myInput;
        //myInput.type="checkbox"
        //myul.document.querySelector("todoList");
-       //myLi = document.createElement(“li”);
-       //mylit = document.createTextNode(value);
+       myLi = document.createElement(“li”);
+       mylit = document.createTextNode(value);
+       myli.appendChild(mylit);
+       document.body.appendChild(myli);
        //myLi.classList.add(myPriority.value);
        //myInput = document.querySelector("#def");
        //myText = document.createTextNode(myBox.value); 
