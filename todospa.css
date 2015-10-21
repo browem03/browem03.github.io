@@ -5,3 +5,4 @@ footer { width:500px; height:20px; background-color:pink; margin:auto;}
 .high {color:red;}
 .med {color:orange;}
 .low {color:purple;}
+.done {text-decoration:line-through;}
