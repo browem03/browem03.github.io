@@ -1,25 +1,26 @@
 
 
-changeFunc=function(){
-      changeFunc=function(){
-      var myh1, high, med, low, myInput, myLi, myol
-       myInput=document.querySelector("#def").value;
-       myh1=document.querySelector("#abc"); 
-       myh1.innerHTML= myInput;
+changeFunc = function(){
+      
+       myInput=document.querySelector("#def");
+       value1 = document.createTextNode(myInput.value);
+       mylist= document.querySelector("#todoList");
+       
+       cb= document.createElement("INPUT");
+       cb.type="checkbox";
+       cb.onclick = checkfunc;
        
        
-       myLi = document.createElement(“li”);
-       mylit = document.createTextNode(value);
-       myLi.appendChild(mylit);
-       document.body.appendChild(myLi);
-       myol= document.body.querySelector("#todoList");
-       myh1.appendChild(myol);
-       myol.appendChild(myLi);
-       myLi.className=mypriority.value;
-       myLi.type="checkbox"
-       mypriority=document.querySelector= #priority.value
-        
-        
-        
-    }
-
+       myLi= document.createElement("li");
+       myLi.appendChild(cb);
+       myLi.appendChild(value1);
+       mylist.appendChild(myLi);
+       dropdown= document.querySelector("#priority");
+       myLi.classList.add(dropdown.value);
+      }
+       
+      checkfunc = function() { if (this.checked) {this.parentNode.classList.add("done"); }
+      else { this.parentNode.classList.remove("done") }
+      localSave("tasklist")
+      }
+  
