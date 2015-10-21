@@ -30,36 +30,21 @@
 
 <script class= csclass id= myDiv type="text/javascript">
     changeFunc=function(){
-      var myh1, high, med, low, myInput, myli, myol
+      var myh1, high, med, low, myInput, myLi, myol
        myInput=document.querySelector("#def").value;
-       myh1=document.querySelector("li"); 
+       myh1=document.querySelector("myLi"); 
        myh1.innerHTML= myInput;
-       //myInput.type="checkbox"
-       //myul.document.querySelector("todoList");
+       
+       
        myLi = document.createElement(“li”);
        mylit = document.createTextNode(value);
-       myli.appendChild(mylit);
-       document.body.appendChild(myli);
+       myLi.appendChild(mylit);
+       document.body.appendChild(myLi);
        myol= document.body.querySelector("#todoList");
-       myol.appendChild(myli);
-       //myLi.classList.add(myPriority.value);
-       //myInput = document.querySelector("#def");
-       //myText = document.createTextNode(myBox.value); 
-       //myInput.type = “checkbox”
-       //document.body.appendChild(myUL);
-       //myUl.appendChild(myLi);
-       //myLi.appendChild(myInput);
-       //myLi.appendChild(myText);
-       //mypriority=document.querySelector=#priority.value; 
-       //def.type="checkbox"
-       //high=document.querySelector("high");
-      // med=document.querySelector("med");
-       //low=document.querySelector("low")
-
-       //high.className= "high";
-       //med.className= "med";
-       //low.className= "low";
-    
+       myol.appendChild(myLi);
+       myLi.className=mypriority.value;
+       myLi.type="checkbox"
+       mypriority=document.querySelector= #priority.value
         
         
         
