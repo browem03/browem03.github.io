@@ -30,7 +30,7 @@
 
 <script class= csclass id= myDiv type="text/javascript">
     changeFunc=function(){
-      var myh1, high, med, low, myInput
+      var myh1, high, med, low, myInput, myli, myol
        myInput=document.querySelector("#def").value;
        myh1=document.querySelector("li"); 
        myh1.innerHTML= myInput;
@@ -40,6 +40,8 @@
        mylit = document.createTextNode(value);
        myli.appendChild(mylit);
        document.body.appendChild(myli);
+       myol= document.body.querySelector("#todoList");
+       myol.appendChild(myli);
        //myLi.classList.add(myPriority.value);
        //myInput = document.querySelector("#def");
        //myText = document.createTextNode(myBox.value); 
