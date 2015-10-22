@@ -22,7 +22,7 @@ changeFunc = function(){
        
       checkfunc = function() { if (this.checked) {this.parentNode.classList.add("done"); }
       else { this.parentNode.classList.remove("done") }
-      localSave(todoList)
-      restoreList(todoList, checkfunc)
+      localSave("todoList");
+      restoreList("todoList", "checkfunc");
       }
   
