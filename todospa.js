@@ -10,11 +10,11 @@ changeFunc = function(){
        cb.type="checkbox";
        cb.onclick = checkfunc;
        
-      myol.document.querySelector("#todoList");
+      myp=document.querySelector("#abc");
+      myp.appendChild(mylist)
        myLi= document.createElement("li");
        myLi.appendChild(cb);
        myLi.appendChild(value1);
-       myol.appendChild(myLi);
        mylist.appendChild(myLi);
        dropdown= document.querySelector("#priority");
        myLi.classList.add(dropdown.value);
