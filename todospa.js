@@ -18,11 +18,11 @@ changeFunc = function(){
        mylist.appendChild(myLi);
        dropdown= document.querySelector("#priority");
        myLi.classList.add(dropdown.value);
-       localSave("mylist");
+       localSave('todoList')
       }
        
       checkfunc = function() { if (this.checked) {this.parentNode.classList.add("done"); }
       else { this.parentNode.classList.remove("done") }
-      localSave("mylist");
+      localSave('todoList')
       }
   
