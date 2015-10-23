@@ -18,6 +18,7 @@ changeFunc = function(){
        mylist.appendChild(myLi);
        dropdown= document.querySelector("#priority");
        myLi.classList.add(dropdown.value);
+       localSave("todoList");
       }
        
       checkfunc = function() { if (this.checked) {this.parentNode.classList.add("done"); }
